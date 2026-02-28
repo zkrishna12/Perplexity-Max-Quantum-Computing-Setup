@@ -97,29 +97,105 @@ This entire lab was built and run using **Perplexity Pro** as an AI coding assis
 
 ```
 quantum-computing-lab/
-+-- README.md
-+-- requirements.txt
++-- README.md                          # This file
++-- requirements.txt                   # Python dependencies
 +-- guide/
+|   +-- Quantum_Computing_Lab_Guide.pdf  # Complete PDF guide
 +-- experiments/
-|   +-- 01_coin_flip.py
-|   +-- 02_entanglement.py
-|   +-- 03_random_numbers.py
-|   +-- 04_grovers_search.py
-|   +-- 05_teleportation.py
-|   +-- 06_advanced_algorithms.py
-|   +-- 07_coin_game.py
-|   +-- 08_password_cracker.py
-|   +-- 09_error_correction.py
-|   +-- 10_random_walk.py
-|   +-- 11_bb84_key_distribution.py
-|   +-- 12_superdense_coding.py
-+-- charts/
+|   +-- 01_coin_flip.py                # Quantum coin flip
+|   +-- 02_entanglement.py            # Quantum entanglement
+|   +-- 03_random_numbers.py          # True random number generator
+|   +-- 04_grovers_search.py          # Grover's search algorithm
+|   +-- 05_teleportation.py           # Quantum teleportation
+|   +-- 06_advanced_algorithms.py     # DJ, QFT, VQE, noise sim
+|   +-- 07_coin_game.py               # Quantum coin game
+|   +-- 08_password_cracker.py        # Quantum password cracker
+|   +-- 09_error_correction.py        # 3-qubit error correction
+|   +-- 10_random_walk.py             # Quantum random walk
+|   +-- 11_bb84_key_distribution.py   # BB84 quantum cryptography
+|   +-- 12_superdense_coding.py       # Superdense coding
++-- charts/                            # Generated chart images
+    +-- (auto-generated when you run experiments)
 ```
+
+---
+
+## What's In It For You?
+
+### If You're a Student
+- **Hands-on portfolio** - show employers you've run quantum experiments
+- **Foundation** for quantum computing courses and certifications
+- **Understanding** that goes beyond textbook theory
+
+### If You're an IT Professional
+- **Stay ahead** - quantum computing is coming to enterprise IT
+- **Client conversations** - explain quantum concepts confidently
+- **Career positioning** - quantum skills are increasingly in demand
+
+### If You're Just Curious
+- **Demystify** quantum computing without needing a physics degree
+- **See results** immediately - every experiment produces visual output
+- **Plain English** explanations - no jargon, no complex math
+
+---
+
+## Learn More - Free Resources
+
+### Beginner Courses (Free)
+| Resource | Platform | Level | Link |
+|----------|----------|-------|------|
+| Quantum Computing for Everyone | edX (UChicago) | Beginner | [Link](https://www.edx.org/learn/quantum-computing/the-university-of-chicago-quantum-computing-for-everyone) |
+| Qiskit Textbook | IBM | Beginner-Advanced | [Link](https://github.com/Qiskit/textbook) |
+| Quantum Computing Course | freeCodeCamp (YouTube) | Beginner | [Link](https://www.youtube.com/watch?v=tsbCSkvHhMo) |
+| Quantum 101 | Microsoft Learn | Beginner | [Link](https://learn.microsoft.com/en-us/azure/quantum/) |
+| Linux Foundation QC Fundamentals | Linux Foundation | Beginner | [Link](https://training.linuxfoundation.org/training/fundamentals-of-quantum-computing/) |
+
+### YouTube Channels
+- **Quantum Soar** - Simple algorithm explanations
+- **Qiskit** - Official IBM quantum channel
+- **Quantum Sense** - Strong on foundations
+- **freeCodeCamp** - Full beginner course
+- **Google Quantum AI** - Latest hardware breakthroughs
+
+### Books (Free Online)
+- **"Quantum Computing for the Quantum Curious"** - Open access, high school physics only ([Archive.org](https://archive.org/details/oapen-20.500.12657-48236))
+- **"Introduction to Classical and Quantum Computing"** by Tom Wong - Only needs trigonometry
+- **"Learn Quantum Computation using Qiskit"** - Free IBM textbook with code ([GitHub](https://github.com/Qiskit/textbook))
+
+### Tools & Platforms
+- **Origin Quantum QPanda3** - What this lab uses ([originqc.com](https://originqc.com/developer-tools/qpanda))
+- **IBM Quantum Experience** - Free access to real quantum computers ([quantum.ibm.com](https://quantum.ibm.com))
+- **Google Cirq** - Google's quantum framework ([quantumai.google/cirq](https://quantumai.google/cirq))
+- **Microsoft QDK** - Q# language and Azure Quantum ([learn.microsoft.com](https://learn.microsoft.com/en-us/azure/quantum/))
+
+---
+
+## About Origin Quantum & QPanda3
+
+This lab uses **QPanda3** (Quantum Programming Architecture for NISQ Device Application v3), developed by **Origin Quantum** - China's leading quantum computing company. QPanda3 is:
+
+- **Open source** and freely available via `pip install pyqpanda3`
+- **20x faster** circuit construction than Qiskit (benchmarked)
+- Connected to **Origin Wukong**, a 72-qubit superconducting quantum processor
+- Supports local simulation (what we use) and cloud-based real hardware execution
+
+---
+
+## Contributing
+
+Found a bug? Want to add an experiment? PRs are welcome!
+
+1. Fork this repo
+2. Create a branch (`git checkout -b new-experiment`)
+3. Add your experiment in the `experiments/` folder
+4. Submit a Pull Request
 
 ---
 
 ## License
 
 MIT License - Use freely for learning, teaching, and sharing.
+
+---
 
 **Built with curiosity and [Perplexity Pro](https://perplexity.ai) | Powered by [Origin Quantum QPanda3](https://originqc.com/developer-tools/qpanda)**
