@@ -83,6 +83,22 @@ This entire lab — 20 experiments, charts, explanations, and this README — wa
 
 ---
 
+## Interactive Dashboard
+
+Explore all 20 experiments through an interactive web dashboard with animated KPIs, filterable experiment cards, AI vs Quantum comparison charts, and a quantum concepts map.
+
+The dashboard is in the `dashboard/` folder — just open `dashboard/index.html` in any browser. No server needed.
+
+Features:
+- Animated KPI counters (experiments, qubits, gates, quantum shots)
+- Filterable experiment explorer with detail modals
+- Classical vs Quantum accuracy bar chart
+- 14 quantum concepts with real-world applications
+- Dark/light theme toggle
+- Fully responsive (mobile to desktop)
+
+---
+
 ## Quick Start (5 Minutes)
 
 ### Prerequisites
@@ -160,6 +176,7 @@ This entire lab was built and run using **Perplexity Pro** as an AI coding assis
 ```
 quantum-computing-lab/
 ├── README.md                          # This file
+├── SPECIFICATIONS.md                  # Technical specs for all experiments
 ├── requirements.txt                   # Python dependencies
 ├── guide/
 │   └── Quantum_Computing_Lab_Guide.pdf  # Complete PDF guide
@@ -181,6 +198,12 @@ quantum-computing-lab/
 │   ├── 15_quantum_random_forest.py        # [AI+Q] Quantum RNG + Random Forest
 │   ├── 16_quantum_vs_classical_showdown.py # [AI+Q] 5-algorithm comparison
 │   └── 17_quantum_stock_predictor.py      # [AI+Q] Hybrid finance prediction
+├── dashboard/                         # Interactive web dashboard
+│   ├── index.html                     # Main HTML (open in browser)
+│   ├── base.css                       # CSS reset & foundations
+│   ├── style.css                      # Full dashboard styling
+│   ├── app.js                         # Data, routing, charts & interactions
+│   └── README.md                      # Dashboard documentation
 └── charts/                            # Generated chart images
     └── (auto-generated when you run experiments)
 ```
